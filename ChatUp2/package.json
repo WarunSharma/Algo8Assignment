@@ -1,0 +1,21 @@
+{
+  "name": "chatup2",
+  "version": "1.0.0",
+  "description": "Chat app with rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "warunsharma.95@gmail.com (8708087834)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "loader": "^2.1.1",
+    "moment": "^2.29.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
